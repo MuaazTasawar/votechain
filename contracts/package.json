@@ -1,0 +1,22 @@
+{
+  "name": "votechain-contracts",
+  "version": "1.0.0",
+  "description": "VoteChain smart contracts",
+  "main": "hardhat.config.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:local": "hardhat run scripts/deploy.js --network hardhat",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia",
+    "node": "hardhat node"
+  },
+  "keywords": [],
+  "author": "MuaazTasawar",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^7.0.0",
+    "hardhat": "^3.9.0",
+    "dotenv": "^16.0.0"
+  }
+}
